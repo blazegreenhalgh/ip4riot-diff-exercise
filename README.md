@@ -54,7 +54,7 @@ Fill in what each of the elements of the diff mean (if you are not sure just gue
 Shows this is a diff in git format. It is followed by the file names being compared. The `a/` and `b/` 'folders' are like virtual folders that usually represent different versions with the newer version being b/ and the older version being a/.
 
 **②**
-Shows the first and second commit hashes. These are used to identify the commits that are being compared. This is useful for git to know which commit to apply the diff to. The number on the end is the file mode, and, well, you don't need to worry about that (except if you get a different number, then you should worry).
+Showing the two commits being compared. These are used to identify the commits that are being compared. This is useful for git to know which commit to apply the diff to. The number on the end is the file mode, and, well, you don't need to worry about that (except if you get a different number, then you should worry).
 
 **③**:
 The symbol associated with each file. Indicates which file is doing the inserting. Note: if the files have a temporal relationship, then an insertion in the past (exists in the past but not in the present) indicates deletion in the present. But notice that files don't have to have a temporal relationship in which case you must remember to treat the symbols as just saying who originated the change.
@@ -63,7 +63,7 @@ The symbol associated with each file. Indicates which file is doing the insertin
 This is a section header. It tells the line number from each file that is being compared (the plus and minus are the originator indicator not negative and positive numbers!!!)
 
 **⑤**:
-The words "fork this repo" I hope you have a better answer than me!
+Contextual lines above and below the differences.
 
 **⑥**:
 In this example, one line is replaced and 3 additional lines are added in the new version
